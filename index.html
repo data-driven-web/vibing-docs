@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vibing Legal & Support</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #15151f;
+      --muted: #5b6473;
+      --accent: #ff7a59;
+      --surface: #ffffff;
+      --line: #e7e9ef;
+      --bg: #f8fafc;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.6;
+    }
+    .wrap {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 40px 20px 56px;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+      color: var(--accent);
+    }
+    .sub {
+      margin-top: 8px;
+      color: var(--muted);
+    }
+    .grid {
+      margin-top: 28px;
+      display: grid;
+      gap: 14px;
+    }
+    .card {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 18px 18px;
+    }
+    .card strong { color: var(--ink); }
+    .card p {
+      margin: 6px 0 0;
+      color: var(--muted);
+    }
+    .footer {
+      margin-top: 36px;
+      color: var(--muted);
+      font-size: .95rem;
+    }
+    code {
+      background: #eef1f7;
+      padding: 2px 6px;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <h1>Vibing Legal & Support</h1>
+    <p class="sub">Official pages for Google Play store listing and user support.</p>
+
+    <section class="grid" aria-label="Legal links">
+      <a class="card" href="./privacy-policy.html">
+        <strong>Privacy Policy</strong>
+        <p>How Vibing collects, uses, stores, and protects personal information.</p>
+      </a>
+      <a class="card" href="./account-deletion.html">
+        <strong>Account Deletion</strong>
+        <p>How to request deletion and what data is deleted or retained.</p>
+      </a>
+      <a class="card" href="./terms.html">
+        <strong>Terms of Service</strong>
+        <p>Core usage terms and community conduct expectations.</p>
+      </a>
+    </section>
+
+    <p class="footer">
+      Support: <a href="mailto:support@vibing.now">support@vibing.now</a><br />
+      If GitHub Pages is enabled from <code>docs/</code>, this page should be available at
+      <code>https://data-driven-web.github.io/vibing/</code>.
+    </p>
+  </main>
+</body>
+</html>
